@@ -1,0 +1,196 @@
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 118, 99);
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+    box-shadow :5px 5px 5px rgb(201, 179, 179) ;
+    background-color: rgb(197, 227, 240);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.img{
+    font-family: "Sedan SC", serif;
+    color: rgb(162, 63, 24);
+    display:flex;
+    align-items: center;
+}
+
+
+.circle{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 188, 107, 0.258);
+}
+
+.imo img{
+    border-radius: 50%;
+}
+
+.dish{
+        font-family: "Jersey 25", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.tag{
+    border:8px solid rgb(247, 201, 109);
+    background-color: rgb(239, 202, 129);
+    width: fit-content;
+}
+
+h1{
+    color: rgb(223, 102, 150);
+    
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+      
+}
+p{
+    color: chocolate;
+}
+
+button{
+    border:2px solid;
+    background-color: orange;
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(114, 104, 104);
+    transition: 0.3s ease-in-out;
+    border-radius: 70px;
+}
+button p{
+    color: rgb(72, 38, 113);
+}
+button:hover{
+    opacity: 2.0;
+    background-color: rgb(1, 255, 9);
+
+}
+
+
+.next{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 18px rgb(232, 62, 119);
+    background-color: antiquewhite;
+   
+
+}
+
+
+.features{
+    margin: 100px;
+    padding: 20px;
+    display:flex;
+    gap: 40px;
+    box-shadow: 5px 5px 11px rgb(28, 22, 22) ;
+    background-color: antiquewhite;
+}
+
+.feature{
+    display: flex;
+}
+
+.divider{
+    border: 1px solid rgba(243, 195, 195, 0.616);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0px;
+    align-items: center;
+    color: purple;
+}
+
+.menu .tag{
+    align-self: center;
+}
+
+.grid{
+    display: grid;
+    gap: 8px;
+    grid-template-areas:
+    "g1 g1 g2 g3"
+    "g1 g1 g2 g7"
+    "g4 g5 g6 g7"
+    ;
+}
+
+.item1{
+    
+    grid-area: g1;
+}
+.item2{
+    grid-area: g2;
+}
+.item3{
+    grid-area: g3;
+}
+.item4{
+    grid-area: g4;
+}
+.item5{
+    grid-area: g5;
+}
+.item6{
+    grid-area: g6;
+}
+.item7{
+    grid-area: g7;
+}
+
+/* .cover{
+    display: flex;
+    background-color: rgb(229, 204, 154);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    
+} */
